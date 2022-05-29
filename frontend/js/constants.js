@@ -1,4 +1,4 @@
-const contractAddress = "0x3c0eCA0418e3772C0fc2d032C87F7bB2237C03ff"; //Replace with your own contract address
+const contractAddress = "0x26fE0d2F692c0f919C7dAAFf1d6245b66D994A3C"; //Replace with your own contract address
 const chain = 'rinkeby'; // rinkeby or polygon
 
 const welcome_h1 = "Welcome to the Ghostsy NFT Project!!";

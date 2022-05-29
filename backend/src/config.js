@@ -56,10 +56,10 @@ const MINT_PRICE = 0.08; // Minting price per NFT. Rinkeby = ETH, Polygon = MATI
 const TOKENS_PER_MINT = 3; // maximum number of NFTs a user can mint in a single transaction. CANNOT BE UPDATED!
 
 // REQUIRED CONTRACT DETAILS THAT CAN BE UPDATED LATER.
-const PUBLIC_MINT_START_DATE = "2022-05-22T11:30:48+00:00"; // This is required. Eg: 2022-02-08T11:30:48+00:00
+const PUBLIC_MINT_START_DATE = "2022-05-29T06:35:48+00:00"; // This is required. Eg: 2022-02-08T11:30:48+00:00
 
 // OPTIONAL CONTRACT DETAILS THAT CAN BE UPDATED LATER.
-const PRESALE_MINT_START_DATE = "2022-05-16T11:30:48+00:00"; // Optional. Eg: 2022-02-08T11:30:48+00:00
+const PRESALE_MINT_START_DATE = "2022-05-29T04:30:48+00:00"; // Optional. Eg: 2022-02-08T11:30:48+00:00
 const ROYALTY_SHARE = 1000; // Percentage of the token price that goes to the royalty address. 100 bps = 1%
 const ROYALTY_ADDRESS = "0x2ff55d1397975283A05fa8E911F50CF59DD401b9"; // Address that will receive the royalty
 const BASE_URI = "ipfs://bafybeigspistxxgjac4gl7gxjqxs3duzazcpbx7gy3d4n6vrpqx3kgau6e/"; // only update if you want to manually set the base uri
@@ -67,7 +67,7 @@ const PREREVEAL_TOKEN_URI = null; // only update if you want to manually set the
 const PRESALE_WHITELISTED_ADDRESSES = ["0x2ff55d1397975283A05fa8E911F50CF59DD401b9"]; // only update if you want to manually set the whitelisted addresses
 
 // ** OPTIONAL **
-let CONTRACT_ADDRESS = "0x3c0eCA0418e3772C0fc2d032C87F7bB2237C03ff"; // If you want to manually include it
+let CONTRACT_ADDRESS = "0x26fE0d2F692c0f919C7dAAFf1d6245b66D994A3C"; // If you want to manually include it
 
 // Generic Metadata is optional if you want to reveal your NFTs
 const GENERIC = false; // Set to true if you want to upload generic metas and reveal the real NFTs in the future
